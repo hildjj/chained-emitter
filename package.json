@@ -36,7 +36,6 @@
     "benchmark": ">= 0.2.2"
   },
   "dependencies": {
-    "q": "*",
     "bluebird": "^2.3.11"
   },
   "engines": [
