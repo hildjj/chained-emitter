@@ -25,7 +25,7 @@
     }
   ],
   "homepage": "https://github.com/hildjj/chained-emitter",
-  "repositories": [
+  "repository": [
     {
       "type": "git",
       "url": "git://github.com/hildjj/chained-emitter.git"
