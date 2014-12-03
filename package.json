@@ -1,6 +1,6 @@
 {
   "name": "chained-emitter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "chained-emitter is a an implementation of the EventEmitter found in Node.js, based on EventEmitter2, but adding the ability to return a promise in an event handler.",
   "keywords": [
     "event",
