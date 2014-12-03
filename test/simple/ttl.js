@@ -35,13 +35,14 @@ module.exports = simpleEvents({
 
     emitter.many('test1', 4, function (value1) {
       test.ok(true, 'The event was raised 4 times.');
+      test.expect(value1 + 1)
     });
 
     var p = emitter.emit('test1', 0);
     for (var i=1; i<5; i++) {
-      p = p.then(function(fired) {
-        emitter.emit('test1', i);
-      });
+      p = (function(i) { return p.then(function(fired) {
+        return emitter.emit('test1', i);
+      }); })(i)
     }
     p.then(function(fired) {
       test.ok(!fired, "The last one shouldn't fire")
