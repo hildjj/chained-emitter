@@ -19,11 +19,7 @@
       "email": "hij1nx@nodejitsu.com"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "homepage": "https://github.com/hildjj/chained-emitter",
   "repository": [
     {
