@@ -33,10 +33,10 @@
   ],
   "devDependencies": {
     "nodeunit": "*",
-    "benchmark": ">= 0.2.2"
+    "benchmark": ">= 1.0.0"
   },
   "dependencies": {
-    "bluebird": "^2.3.11"
+    "bluebird": "^2.9.26"
   },
   "engines": [
     "node"
