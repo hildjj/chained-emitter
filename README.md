@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is deprecated.  EventEmitter2 added support for promises with its [emitAsync](https://github.com/EventEmitter2/EventEmitter2#emitteremitasyncevent-arg1-arg2-) function.
+
 # ChainedEventEmitter
 
 ChainedEventEmitter is a an implementation of the EventEmitter found in Node.js,
@@ -16,7 +20,7 @@ handlers have fired.
  - The constructor takes a configuration object.
 
 ```javascript
-    var ChainedEmitter = reuire('ChainedEmitter').EventEmitter;
+    var ChainedEmitter = require('ChainedEmitter').EventEmitter;
     var server = new ChainedEmitter({
       parallel: true, // fire second handler before the first resolves, defaults to false
     });
